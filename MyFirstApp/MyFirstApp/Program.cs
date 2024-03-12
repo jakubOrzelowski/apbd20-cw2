@@ -15,3 +15,7 @@ static double GetAverage(int[] x)
 
     return suma / x.Length;
 }
+
+int[] x = new []{1,2,3,4};
+
+Console.WriteLine(GetAverage(x));
