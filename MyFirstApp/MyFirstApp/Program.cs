@@ -7,13 +7,13 @@ Console.WriteLine("modyfikacja 3");
 
 static double GetAverage(int[] x)
 {
-    double yy = 0;
+    double xx = 0;
     for (int i = 0; i < x.Length; i++)
     {
-        yy += x[i];
+        xx += x[i];
     }
 
-    return yy / x.Length;
+    return xx / x.Length;
 }
 
 int[] x = new []{1,2,3,4};
