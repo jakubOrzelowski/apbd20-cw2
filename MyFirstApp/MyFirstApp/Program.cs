@@ -19,3 +19,10 @@ static double GetAverage(int[] x)
 int[] x = new []{1,2,3,4};
 
 Console.WriteLine(GetAverage(x));
+
+static int GetMax(int[] x)
+{
+    return x.Max();
+}
+
+Console.WriteLine(GetMax(x));
